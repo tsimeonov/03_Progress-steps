@@ -1,7 +1,7 @@
 const progress = document.querySelector('#progress');
 const prev = document.querySelector('#prev');
 const next = document.querySelector('#next');
-const circles = document.querySelector('.circle');
+const circles = document.querySelectorAll('.circle');
 
 let currentActive = 1;
 
@@ -25,4 +25,19 @@ function update() {
 			circle.classList.remove('active');
 		}
 	});
+
+	const actives = document.querySelectorAll('.active');
+
+	progress.style.width = `${(actives.length - 1) / circles.length}`;
+
+	if (currentActive === 1) {
+		prev.disabled = true;
+	} else if (currentActive === circles.length) {
+		next.disabled = true;
+	} else {
+		prev.disabled = false;
+		next.disabled = false;
+	}
+
+	console.log((actives.length / circles.length) * 100);
 }
