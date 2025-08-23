@@ -29,7 +29,7 @@ body {
 	position: relative;
 	margin-bottom: 30px;
 	max-width: 100%;
-	width: 500px;
+	width: 550px;
 }
 
 .progress-container:before {
@@ -83,4 +83,9 @@ body {
 	padding: 8px 30px;
 	margin: 5px;
 	font-size: 14px;
+}
+
+.btn:disabled {
+	background-color: var(--line-border-empty);
+	cursor: not-allowed;
 }
