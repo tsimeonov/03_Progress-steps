@@ -70,7 +70,7 @@ body {
 	/* outline: 1px solid red; */
 }
 
-.circle:active {
+.circle.active {
 	border-color: var(--line-border-fill);
 }
 
