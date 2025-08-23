@@ -18,3 +18,7 @@ body {
 	margin: 0;
 	background-color: var(--backgrond-color);
 }
+
+.container {
+	text-align: center;
+}
