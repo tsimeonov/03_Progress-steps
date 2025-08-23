@@ -17,6 +17,16 @@ next.addEventListener('click', () => {
 	update();
 });
 
+prev.addEventListener('click', () => {
+  currentActive--
+
+  if (currentActive < 1) {
+    currentActive = 1
+  }
+
+  update()
+}) 
+
 function update() {
 	circles.forEach((circle, index) => {
 		if (index < currentActive) {
@@ -28,7 +38,7 @@ function update() {
 
 	const actives = document.querySelectorAll('.active');
 
-	progress.style.width = `${(actives.length - 1) / circles.length}`;
+	progress.style.width = `${(actives.length - 1) / (circles.length)}`;
 
 	if (currentActive === 1) {
 		prev.disabled = true;
