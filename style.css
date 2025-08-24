@@ -55,7 +55,7 @@ body {
 	transform: translateY(-50%);
 	z-index: -1;
 	transition: 0.4s ease;
-	outline:  1px dashed lightcoral;
+	/* outline:  1px dashed lightcoral; */
 }
 
 .circle {
