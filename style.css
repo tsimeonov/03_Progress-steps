@@ -18,3 +18,16 @@ body {
 	margin: 0;
 	background-color: var(--backgrond-color);
 }
+
+.container {
+	text-align: center;
+}
+
+.progress-container {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+	width: 400px;
+	max-width: 100%;
+	outline:  1px dashed lightcoral;
+}
