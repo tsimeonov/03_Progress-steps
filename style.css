@@ -26,10 +26,10 @@ body {
 .progress-container {
 	display: flex;
 	justify-content: space-between;
+	position: relative;
 	margin-bottom: 30px;
 	width: 400px;
 	max-width: 100%;
-	outline:  1px dashed lightcoral;
 }
 
 .progress-container::before {
@@ -43,4 +43,17 @@ body {
 	transform: translateY(-50%);
 	z-index: -1;
 	transition: 0.4s ease;
+}
+
+.progress {
+	background-color: var(--line-border-fill);
+	position: absolute;
+	top: 50%;
+	left: 0;
+	height: 4px;
+	width: 0%;
+	transform: translateY(-50%);
+	z-index: -1;
+	transition: 0.4s ease;
+	outline:  1px dashed lightcoral;
 }
