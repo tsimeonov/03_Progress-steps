@@ -1,5 +1,19 @@
 :root {
-  --background-color: #F6f7f7;
+  --background-color: #bfc3c3;
   --line-border-fill: #3490db;
   --line-border-empty: #e0e0e0;
+}
+ 
+*{
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-color: var(--background-color);
 }
