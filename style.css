@@ -4,3 +4,16 @@
   --line-border-empty: #e0e0e0;
 }
  
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  background-color: var(--background-color);
+}
