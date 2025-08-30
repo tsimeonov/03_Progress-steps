@@ -32,6 +32,18 @@ body {
 	margin-bottom: 30px;
 }
 
+.progress-container::before {
+	content: '';
+	background-color: var(--line-border-empty);
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	transform: translateY(-50%);
+	transition: 0.4s ease;
+	z-index: -1;
+}
+
 .progress {
 	background-color: var(--line-border-fill);
 	position: absolute;
@@ -42,4 +54,5 @@ body {
 	width: 4px;
 	outline: 1px solid red;
 	transition: 0.4s ease;
+	z-index: -1;
 }
