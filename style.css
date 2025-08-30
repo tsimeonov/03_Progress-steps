@@ -31,6 +31,19 @@ body {
 	margin-bottom: 40px;
 }
 
+.progress-container:before {
+	content: '';
+	background-color: var(--line-border-empty);
+	height: 4px;
+	width: 0%;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	transition: 0.4s ease;
+	z-index: -1;
+}
+
 .progress {
 	background-color: var(--line-border-fill);
 	height: 4px;
