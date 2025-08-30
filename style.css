@@ -85,3 +85,8 @@ body {
 .brn:active {
 	transform: scale(0.9);
 }
+
+.btn:disabled {
+	cursor: not-allowed;
+	background-color: var(--line-border-empty);
+}
