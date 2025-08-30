@@ -74,3 +74,13 @@ body {
 	border-color: var(--line-border-fill);
 	/* outline: 1px solid red; */
 }
+
+.btn {
+	background-color: var(--line-border-fill);
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 10px;
+	font-size: 16px;
+	cursor: pointer;
+}
