@@ -81,3 +81,7 @@ body {
 	cursor: pointer;
 	font-size: 16px;
 }
+
+.brn:active {
+	transform: scale(0.9);
+}
