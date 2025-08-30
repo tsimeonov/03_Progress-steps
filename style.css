@@ -71,3 +71,13 @@ body {
 .circle.active {
 	border-color: var(--line-border-fill);
 }
+
+.btn {
+	border: none;
+	padding: 10px 20px;
+	background-color: var(--line-border-fill);
+	color: white;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 16px;
+}
