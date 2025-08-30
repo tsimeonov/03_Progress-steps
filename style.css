@@ -38,6 +38,7 @@ body {
 	position: absolute;
 	top: 50%;
 	left: 0;
+	height: 4px;
 	width: 100%;
 	transform: translateY(-50%);
 	transition: 0.4s ease;
@@ -49,10 +50,14 @@ body {
 	position: absolute;
 	top: 50%;
 	left: 0;
+	height: 4px;
 	width: 0%;
 	transform: translateY(-50%);
 	width: 4px;
 	outline: 1px solid red;
 	transition: 0.4s ease;
 	z-index: -1;
+}
+
+.circle {
 }
