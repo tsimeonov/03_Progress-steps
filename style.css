@@ -80,3 +80,8 @@ body {
 	padding: 5px 15px;
 	border-radius: 10px;
 }
+
+.btn:disabled {
+	cursor: not-allowed;
+	background-color: var(--line-border-empty);
+}
