@@ -30,3 +30,16 @@ body {
 	width: 600px;
 	max-width: 100%;
 }
+
+.progress-container:before {
+	content: '';
+	position: absolute;
+	background-color: var(--line-border-empty);
+	top: 50%;
+	left: 0;
+	height: 4px;
+	width: 100%;
+	transform: translateY(-50%);
+	z-index: -1;
+	transform: 0.4s ease;
+}
