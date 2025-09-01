@@ -43,3 +43,15 @@ body {
 	z-index: -1;
 	transform: 0.4s ease;
 }
+
+.progress {
+	background-color: var(--line-border-fill);
+	position: absolute;
+	top: 50%;
+	left: 0;
+	height: 4px;
+	width: 0%;
+	transform: translateY(-50%);
+	z-index: -1;
+	transition: -4s ease;
+}
