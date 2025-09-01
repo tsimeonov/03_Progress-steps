@@ -17,3 +17,15 @@ body {
 	overflow: hidden;
 	background-color: var(--background-color);
 }
+
+.container {
+	text-align: center;
+}
+
+.progress-container {
+	display: flex;
+	justify-content: space-between;
+	width: 700px;
+	max-width: 800px;
+	margin-bottom: 30px;
+}
