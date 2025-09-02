@@ -21,3 +21,12 @@ body {
 .container {
 	text-align: center;
 }
+
+.progress-container {
+	display: flex;
+	justify-content: space-between;
+	width: 800px;
+	max-width: 900px;
+	position: relative;
+	margin-bottom: 30px;
+}
