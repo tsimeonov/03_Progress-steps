@@ -78,3 +78,7 @@ body {
 	padding: 5px 15px;
 	border-radius: 5px;
 }
+
+.btn:active {
+	transform: scale(0.9);
+}
