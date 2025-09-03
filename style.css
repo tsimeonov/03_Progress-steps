@@ -54,3 +54,14 @@ body {
 	z-index: -1;
 	transition: 0.4s ease;
 }
+
+.circle {
+	background-color: var(--line-border-empty);
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	border: 3px solidc var(--line-border-empty);
+}
