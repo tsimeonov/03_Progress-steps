@@ -70,3 +70,11 @@ body {
 .circle.active {
 	border-color: var(--line-border-fill);
 }
+
+.btn {
+	background-color: var(--line-border-fill);
+	color: white;
+	border: none;
+	padding: 5px 15px;
+	border-radius: 5px;
+}
