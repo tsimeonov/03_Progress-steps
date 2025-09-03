@@ -63,5 +63,10 @@ body {
 	justify-content: center;
 	align-items: center;
 	border-radius: 50%;
-	border: 3px solidc var(--line-border-empty);
+	border: 3px solid var(--line-border-empty);
+	transform: 0.4s ease;
+}
+
+.circle.active {
+	border-color: var(--line-border-fill);
 }
