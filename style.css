@@ -53,3 +53,14 @@ body {
 	transform: translateY(-50%);
 	transition: 0.4s ease;
 }
+
+.circle {
+	background-color: var(--line-border-empty);
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 3px solid var(--line-border-empty);
+}
