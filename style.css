@@ -79,3 +79,8 @@ body {
 	border-radius: 10px;
 	cursor: pointer;
 }
+
+.btn:disabled {
+	cursor: not-allowed;
+	background-color: var(--line-border-empty);
+}
