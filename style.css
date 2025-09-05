@@ -44,4 +44,12 @@ body {
 }
 
 .progress {
+	background-color: var(--line-border-fill);
+	position: absolute;
+	width: 0%;
+	height: 4px;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	transition: 0.4s ease;
 }
