@@ -3,7 +3,7 @@ const prev = document.querySelector('#prev');
 const next = document.querySelector('#next');
 const circles = document.querySelectorAll('.circle');
 
-let currentActive = 0;
+let currentActive = 1;
 
 next.addEventListener('click', () => {
 	currentActive++;
