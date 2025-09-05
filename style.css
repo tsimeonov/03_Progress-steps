@@ -23,6 +23,11 @@ body {
 }
 
 .progress-container {
+	display: flex;
+	justify-content: space-between;
+	width: 800px;
+	margin-bottom: 30px;
+	position: relative;
 }
 
 .progress {
