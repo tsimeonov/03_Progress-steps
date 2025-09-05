@@ -17,3 +17,7 @@ body {
 	overflow: hidden;
 	background-color: var(--background-color);
 }
+
+.container {
+	text-align: center;
+}
