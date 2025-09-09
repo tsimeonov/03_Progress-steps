@@ -27,7 +27,14 @@ prev.addEventListener('click', () => {
 
 function update() {
 	circles.forEach((circle, index) => {
+		if (index < currentActive) {
+			circle.classList.add('active');
+		} else {
+			circle.classList.remove('active');
+		}
 		console.log(circle);
 		console.log(`The index is ${index}`);
 	});
+
+	const actives = document.querySelectorAll('.active');
 }
