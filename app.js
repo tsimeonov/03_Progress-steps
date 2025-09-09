@@ -38,7 +38,7 @@ function update() {
 
 	const actives = document.querySelectorAll('.active');
 
-	progress.computedStyleMap.width = `${
+	progress.style.width = `${
 		((actives.length - 1) / (circles.length - 1)) * 100
 	}%`;
 
@@ -48,6 +48,6 @@ function update() {
 		next.disabled = true;
 	} else {
 		prev.disabled = false;
-		next.disabled = true;
+		next.disabled = false;
 	}
 }
