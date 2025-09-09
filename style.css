@@ -73,6 +73,13 @@ body {
 	border-color: var(--line-border-fill);
 }
 
+.button-container {
+	display: flex;
+	justify-content: space-around;
+	width: 200px;
+	margin: 0 auto;
+}
+
 .btn {
 	background-color: var(--line-border-fill);
 	color: white;
