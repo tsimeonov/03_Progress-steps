@@ -17,3 +17,15 @@ body {
 	margin: 0;
 	background-color: var(--background-color);
 }
+
+.container {
+	text-align: center;
+}
+
+.progress-container {
+	display: flex;
+	justify-content: space-around;
+	width: 800px;
+	margin-bottom: 30px;
+	position: relative;
+}
