@@ -90,3 +90,8 @@ body {
 .btn:active {
 	transform: scale(0.9);
 }
+
+.btn:disabled {
+	background-color: var(--line-border-empty);
+	cursor: not-allowed;
+}
