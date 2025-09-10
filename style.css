@@ -86,3 +86,7 @@ body {
 	border-radius: 10px;
 	cursor: pointer;
 }
+
+.btn:active {
+	transform: scale(0.9);
+}
