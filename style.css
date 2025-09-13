@@ -52,6 +52,7 @@ body {
 	width: 0%;
 	transform: translateY(-50%);
 	left: 0;
+	z-index: -1;
 	transition: 0.4s ease;
 }
 
@@ -63,9 +64,12 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	border: 3px solid var(--line-border-empty);
+	transition: 0.4s ease;
 }
 
 .circle.active {
+	border-color: var(--line-border-fill);
 }
 
 .button-container {
