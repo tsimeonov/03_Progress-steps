@@ -85,8 +85,14 @@ body {
 	color: white;
 	border-radius: 5px;
 	border: none;
+	cursor: pointer;
 }
 
 .btn:active {
 	transform: scale(0.9);
+}
+
+.btn:disabled {
+	cursor: not-allowed;
+	background-color: var(--line-border-empty);
 }
