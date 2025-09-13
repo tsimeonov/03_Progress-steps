@@ -73,6 +73,10 @@ body {
 }
 
 .button-container {
+	display: flex;
+	justify-content: space-evenly;
+	width: 150px;
+	margin: 0 auto;
 }
 
 .btn {
