@@ -87,5 +87,6 @@ body {
 	border: none;
 }
 
-.bt:active {
+.btn:active {
+	transform: scale(0.9);
 }
