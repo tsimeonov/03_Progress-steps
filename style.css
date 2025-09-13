@@ -1,5 +1,5 @@
 :root {
-	--background-color: #bfc3c3;
+	--background-color: #595959;
 	--line-border-fill: #3490db;
 	--line-border-empty: #e0e0e0;
 }
@@ -64,7 +64,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border: 3px solid var(--line-border-empty);
+	border: 4px solid var(--line-border-empty);
 	transition: 0.4s ease;
 }
 
